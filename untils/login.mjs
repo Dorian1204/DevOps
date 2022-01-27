@@ -8,7 +8,7 @@ import fetch from 'node-fetch';
             body: JSON.stringify({userName, password}),
             headers: {'Content-Type':'application/json'}
         };
-        const apiResponse = await fetch('https://de.stedi.me/login',options);
+        const apiResponse = await fetch('https://dev.stedi.me/login',options);
         const loginResponse = await apiResponse.text();
 
         return loginResponse;
