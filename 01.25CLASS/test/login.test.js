@@ -1,5 +1,5 @@
 import assert from 'assert';
-import login from '../utils/login.mjs';
+import login from '../test/login.mjs';
 
  it("Login API should return a vailid login toke",async ()=>{
 
